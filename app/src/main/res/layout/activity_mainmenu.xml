@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainmenu"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/bg">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/gamot"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                   android:layout_marginTop="5dp"
+                    android:id="@+id/garlic"
+                    android:background="@drawable/garlic"
+                    android:text="GARLIC"
+                    android:textColor="@color/black"
+                    android:textSize="50dp"
+                    android:onClick="garlic"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/aloevera"
+                    android:onClick="alovera"
+                    android:background="@drawable/aloevera"
+                    android:text="ALOE VERA"
+                    android:textColor="@color/black"
+                    android:textSize="50dp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/Daisy"
+                    android:onClick="daisy"
+                    android:background="@drawable/daisy"
+                    android:text="DAISY"
+                    android:textColor="@color/black"
+                    android:textSize="50dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/Marigold"
+                    android:background="@drawable/marigold"
+                    android:text="MARIGOLD"
+                    android:onClick="marygold"
+                    android:textSize="50dp"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/Cayenne"
+                    android:background="@drawable/capsicumannuum"
+                    android:text="CAYENNE"
+                    android:onClick="cayenne"
+                    android:textColor="@color/black"
+                    android:textSize="50dp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/Chili"
+                    android:background="@drawable/tabascopeppers"
+                    android:text="CHILI"
+                    android:onClick="chili"
+                    android:textColor="@color/black"
+                    android:textSize="50dp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/Papaya"
+                    android:background="@drawable/papaya"
+                    android:text="PAPAYA"
+                    android:onClick="papaya"
+                    android:textSize="50dp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/Lemon"
+                    android:background="@drawable/lemons"
+                    android:textColor="@color/black"
+                    android:textSize="50dp"
+                    android:onClick="lemon"
+                    android:text="LEMON"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/Gingko"
+                    android:background="@drawable/gingkobiloba"
+                    android:text="GINGKO"
+                    android:textSize="50dp"
+                    android:onClick="gingko"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/Jasmine"
+                    android:background="@drawable/jasminum"
+                    android:text="JASMINE"
+                    android:textColor="@color/black"
+                    android:textSize="50dp"
+                    android:onClick="jasmine"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/Lavender"
+                    android:background="@drawable/lavendula"
+                    android:textSize="50dp"
+                    android:textColor="@color/black"
+                    android:text="LAVENDER"
+                    android:onClick="lavender"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/Chamomile"
+                    android:background="@drawable/chamomile"
+                    android:text="CHAMOMILE"
+                    android:textColor="@color/black"
+                    android:textSize="50dp"
+                    android:onClick="chamomile"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/Lemonbalm"
+                    android:background="@drawable/lemonbalm"
+                    android:textSize="50dp"
+                    android:textColor="@color/black"
+                    android:text="LEMONBALM"
+                    android:onClick="lemonbalm"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/Peppermint"
+                    android:background="@drawable/peppermint"
+                    android:text="PEPPERMINT"
+                    android:textColor="@color/black"
+                    android:textSize="50dp"
+                    android:onClick="peppermint"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/Lotus"
+                    android:background="@drawable/lutos"
+                    android:textSize="50dp"
+                    android:text="LOTUS"
+                    android:textColor="@color/black"
+                    android:onClick="lutos"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/holybasil"
+                    android:background="@drawable/holybasil"
+                    android:textColor="@color/black"
+                    android:text="HOLY BASIL"
+                    android:textSize="50sp"
+                    android:onClick="holybasil"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/Oregano"
+                    android:background="@drawable/oregano"
+                    android:textSize="50sp"
+                    android:text="OREGANO"
+                    android:textColor="@color/black"
+                    android:onClick="oregano"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/Celery"
+                    android:background="@drawable/celery"
+                    android:textColor="@color/black"
+                    android:text="CELERY"
+                    android:textSize="50sp"
+                    android:onClick="celery"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/Dandelion"
+                    android:background="@drawable/dandelions"
+                    android:textSize="50sp"
+                    android:text="DANDELION"
+                    android:onClick="dandelion"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/Parsley"
+                    android:background="@drawable/parsley"
+                    android:textColor="@color/black"
+                    android:text="PARSLEY"
+                    android:textSize="50sp"
+                    android:onClick="parsley"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/Rosemary"
+                    android:background="@drawable/rosemary"
+                    android:textSize="50sp"
+                    android:text="ROSEMARY"
+                    android:onClick="rosemary"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/Sage"
+                    android:background="@drawable/sage"
+                    android:textColor="@color/black"
+                    android:onClick="sage"
+                    android:text="SAGE"
+                    android:textSize="50sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/StJohnsWort"
+                    android:background="@drawable/stjohnswort"
+                    android:textSize="50sp"
+                    android:text="ST JOHN WORT"
+                    android:onClick="stjohn"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/Marshmallow"
+                    android:background="@drawable/altheaofficinalis"
+                    android:textColor="@color/black"
+                    android:text="MARSHMALLOW"
+                    android:onClick="marshmallow"
+                    android:textSize="50sp"/>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
